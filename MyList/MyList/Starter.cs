@@ -15,12 +15,10 @@ namespace MyList
 
             MList<int> list = new MList<int>();
 
-            list.Add(9);
+            list.Add(3);
             list.AddRange(ints);
-            list.Add(10);
-            list.Remove(9);
-            list.RemoveAt(3);
-            list.Sort();
+            list.Remove(1);
+            list.RemoveAt(0);
 
             foreach (int i in list)
             {

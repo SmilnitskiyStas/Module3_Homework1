@@ -34,7 +34,7 @@ namespace MyList.Models
             }
         }
 
-        object IEnumerator.Current => _array[_position];
+        object IEnumerator.Current => Current;
 
         public void Dispose()
         {
